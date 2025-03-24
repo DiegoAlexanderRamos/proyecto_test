@@ -1,0 +1,69 @@
+/* Login and Register Styles */
+.login-card,
+.register-card {
+    max-width: 400px;
+    margin: 100px auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #282828;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.card-header i {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.card-header h4 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form-control {
+    width: 93%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-actions,
+.register-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login-actions .btn,
+.register-actions .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+}
